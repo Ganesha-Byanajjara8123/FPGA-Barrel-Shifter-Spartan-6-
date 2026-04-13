@@ -70,7 +70,7 @@ The design achieved 100% functional correctness across simulation and FPGA testi
 #The FPGA spartan-6 model image
 <img width="809" height="839" alt="Screenshot 2025-09-27 230112" src="https://github.com/user-attachments/assets/7570659f-569c-4ff3-aa57-9a6dd20dfbe6" />
 
-
+#The checking the I/O of the FPGA(below 3 images)
 ![WhatsApp Image 2026-03-13 at 7 59 09 PM](https://github.com/user-attachments/assets/6378d635-7f63-494e-9528-30922df34be1)
 
 
