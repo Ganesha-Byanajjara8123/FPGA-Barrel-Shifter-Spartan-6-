@@ -72,11 +72,12 @@ The design achieved 100% functional correctness across simulation and FPGA testi
 
 
 
+
 #The checking the I/O of the FPGA(below 3 images)
-data_in=10110011 shift=10 dir=1 data_out=101100
 ![WhatsApp Image 2026-03-13 at 7 59 09 PM](https://github.com/user-attachments/assets/6378d635-7f63-494e-9528-30922df34be1)
 
 
+data_in=10110011 shift=10 dir=1 data_out=101100
 ![WhatsApp Image 2026-03-13 at 7 59 09 PM (1)](https://github.com/user-attachments/assets/bf19dc7a-9b83-410b-9a22-8870dbe0a512)
 
 
