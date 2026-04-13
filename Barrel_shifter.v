@@ -7,8 +7,8 @@ module barrel_shifter_dir(
     output [7:0] data_out
 );
 
-    assign data_out = (dir == 1'b0) ? (data_in << shift) : //for shift RIGHT
-                                       (data_in >> shift); //for shift LEFT
+    assign data_out = (dir == 1'b0) ? (data_in << shift) : //for shift LEFT
+                                       (data_in >> shift); //for shift RIGHT
 
 endmodule
 
