@@ -66,6 +66,8 @@ data_out = 11001100
 This project demonstrates a complete FPGA workflow — from RTL design and simulation to hardware implementation and validation.
 The design achieved 100% functional correctness across simulation and FPGA testing.
 
+
+#The FPGA spartan-6 model image
 <img width="809" height="839" alt="Screenshot 2025-09-27 230112" src="https://github.com/user-attachments/assets/7570659f-569c-4ff3-aa57-9a6dd20dfbe6" />
 
 
