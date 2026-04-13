@@ -26,11 +26,11 @@ Suitable for high-speed datapath operations
 
 🧪 Simulation
 Tool: Xilinx ISim (ISE 14.7)
-Testbench verifies:
-Left shift by 2
-Right shift by 2
-Left shift by 4
-Right shift by 3
+#Testbench verifies:
+A)Left shift by 2
+B)Right shift by 2
+C)Left shift by 4
+D)Right shift by 3
 
 All simulation results matched expected outputs.
 
@@ -41,26 +41,26 @@ Toolchain: Xilinx ISE 14.7
 Flow: Synthesis → Translate → Map → PAR → Bitstream Generation
 
 🧪 Example Test Case
-Input:
+#Input:
 data_in = 10110011
 dir = 0 (Left Shift)
 shift = 2
-Output:
+#Output:
 data_out = 11001100
 
 🎯 Skills Demonstrated
-Verilog RTL Design
-Combinational Logic Design
-Testbench Development
-FPGA Pin Mapping (UCF)
-Xilinx ISE 14.7 Tool Flow
-Hardware Debugging on Spartan-6
+1)Verilog RTL Design
+2)Combinational Logic Design
+3)Testbench Development
+4)FPGA Pin Mapping (UCF)
+5)Xilinx ISE 14.7 Tool Flow
+6)Hardware Debugging on Spartan-6
 
 🚀 Future Enhancements
-Add Rotate Left / Rotate Right
-Parameterize bit-width (N-bit shifter)
-Add clocked/pipelined version
-Integrate with ALU design
+1)Add Rotate Left / Rotate Right
+2)Parameterize bit-width (N-bit shifter)
+3)Add clocked/pipelined version
+4)Integrate with ALU design
 
 📌 Conclusion:
 This project demonstrates a complete FPGA workflow — from RTL design and simulation to hardware implementation and validation.
