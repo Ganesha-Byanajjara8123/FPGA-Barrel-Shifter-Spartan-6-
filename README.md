@@ -48,6 +48,15 @@ shift = 2
 #Output:
 data_out = 11001100
 
+#Outputs :
+# KERNEL: ASDB file was created in location /home/runner/dataset.asdb
+# KERNEL: Time | dir | shift | data_in  | data_out
+# KERNEL:    0 |  0  |   2   | 10110011 | 11001100
+# KERNEL: 10000 |  1  |   2   | 10110011 | 00101100
+# KERNEL: 20000 |  0  |   4   | 10110011 | 00110000
+# KERNEL: 30000 |  1  |   3   | 10110011 | 00010110
+# RUNTIME: Info: RUNTIME_0068 testbench.sv (30): $finish called.
+
 🎯 Skills Demonstrated
 1)Verilog RTL Design
 2)Combinational Logic Design
@@ -71,20 +80,15 @@ The design achieved 100% functional correctness across simulation and FPGA testi
 <img width="809" height="839" alt="Screenshot 2025-09-27 230112" src="https://github.com/user-attachments/assets/7570659f-569c-4ff3-aa57-9a6dd20dfbe6" />
 
 
+| dir | shift | data_in  | data_out
+|  0  |   2   | 10110011 | 11001100
+![WhatsApp Image 2026-04-13 at 7 58 27 AM (2)](https://github.com/user-attachments/assets/22c40a4c-4f25-4537-953e-bdd6f9691b04)
 
 
-#The checking the I/O of the FPGA(below 3 images)
-![WhatsApp Image 2026-03-13 at 7 59 09 PM](https://github.com/user-attachments/assets/6378d635-7f63-494e-9528-30922df34be1)
+| dir | shift | data_in  | data_out
+|  1  |   2   | 10110011 | 00101100
+![WhatsApp Image 2026-04-13 at 7 58 27 AM](https://github.com/user-attachments/assets/a34a611c-c0cc-4a5c-bef7-756e06b0d9e1)
 
-
-
-#the given INPUT
-![WhatsApp Image 2026-03-13 at 7 59 09 PM (2)](https://github.com/user-attachments/assets/62feedc4-add6-453b-8d39-21503721abc5)
-
-
-
-data_in=10110011 shift=10 dir=1 data_out=101100
-![WhatsApp Image 2026-03-13 at 7 59 09 PM (1)](https://github.com/user-attachments/assets/bf19dc7a-9b83-410b-9a22-8870dbe0a512)
 
 
 
