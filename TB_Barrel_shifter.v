@@ -1,19 +1,20 @@
 `timescale 1ns/1ps
 
 module tb_barrel_shifter_dir;
-
+//inputs and output
     reg  [7:0] data_in;
     reg  [2:0] shift;
     reg        dir;
     wire [7:0] data_out;
 
+    //module instantiation 
     barrel_shifter_dir uut (
         .data_in(data_in),
         .shift(shift),
         .dir(dir),
         .data_out(data_out)
     );
-
+//initialize the input for FPGA and also dir and shift
     initial begin
         data_in = 8'b10110011;
 
